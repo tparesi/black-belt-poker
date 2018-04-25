@@ -65,10 +65,10 @@ Rails.application.configure do
   # config.active_job.queue_name_prefix = "black_belt_poker_#{Rails.env}"
 
   config.action_mailer.perform_caching = false
-  config.action_mailer.default_url_options = { host: Settings.url }
-  config.action_mailer.asset_host = Settings.url
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = Settings.mailer.smtp.settings.to_hash
+  # config.action_mailer.default_url_options = { host: Settings.url }
+  # config.action_mailer.asset_host = Settings.url
+  # config.action_mailer.delivery_method = :smtp
+  # config.action_mailer.smtp_settings = Settings.mailer.smtp.settings.to_hash
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
